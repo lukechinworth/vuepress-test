@@ -21,5 +21,7 @@ Go nuts with markdown.
 * Webpage title is vuepress page title joined with config title
 ### Deploy
 * `vuepress build` builds to `.vuepress/dist` by default
-* Simply serve as static site, e.g. on github pages, https://lukechinworth.github.io/vuepress-test/built-site
-
+* Simply serve as static site, e.g. on github pages, https://lukechinworth.github.io/vuepress-test/built-site/
+### Links
+* Link is the [TV page](/tv/) will be updated with url base automatically
+* `vuepress dev` will serve from base url config http://localhost:8080/vuepress-test/built-site/
