@@ -4,3 +4,15 @@ Go nuts with markdown.
 ```js
 'example'.slice();
 ```
+## Vuepress notes
+* Global install for standalone project (e.g. solid book)
+* Alternative is local install inside existing project (e.g. docs for a web project)
+* 1305 packages. Holy shnikes!
+* `vuepress dev` serves at http://localhost:8080/
+* Hot reload with updates
+* Add more dirs and READMEs, e.g. /tv/README.md
+* View at /tv/ (trailing slash required)
+* Add .vuepress/config.js
+* Config title appears in header
+* Config description is meta
+* Webpage title is vuepress page title joined with config title
