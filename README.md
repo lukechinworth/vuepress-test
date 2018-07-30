@@ -40,3 +40,21 @@ Go nuts with markdown.
 ### Frontmatter
 * Frontmatter for the current page is available on the `$page` object: {{ $page.frontmatter }}
 * Set front matter with yaml at top of this markdown file
+### Vue script and style
+* Each markdown file is essentially a vue component, so you can do `script` and `style` per page
+* So this can be styled with css: <span class="blue">blue text</span>
+* Check out the console for js from this page
+
+<script>
+export default {
+    mounted() {
+        console.log('hello from home page')
+    }
+}
+</script>
+
+<style>
+.blue {
+    color: blue;
+}
+</style>
