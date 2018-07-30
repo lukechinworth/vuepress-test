@@ -76,6 +76,8 @@ This is the quotation.
 
 </BlockQuote>
 
+## Vuepress default theme notes
+
 ### Navbar
 * Nav bar links are specified in `.vuepress/config.js` at `themeConfig.nav`.
 * Make a dropdown by nesting `items`
