@@ -24,4 +24,5 @@ Go nuts with markdown.
 * Simply serve as static site, e.g. on github pages, https://lukechinworth.github.io/vuepress-test/built-site/
 ### Links
 * Link is the [TV page](/tv/) will be updated with url base automatically
+* Links do not refresh. Front end is single page app.
 * `vuepress dev` will serve from base url config http://localhost:8080/vuepress-test/built-site/
