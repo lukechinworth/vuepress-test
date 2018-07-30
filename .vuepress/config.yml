@@ -4,3 +4,16 @@ title: VuePress test
 description: This is the meta description
 dest: built-site
 base: /vuepress-test/built-site/
+themeConfig:
+  nav:
+    - text: TV
+      link: /tv/
+      items:
+        - text: Sub 1
+          link: /sub-1/
+        - text: Sub 2
+          link: /sub-2/
+    - text: Guide
+      link: /guide/
+    - text: External
+      link: https://google.com

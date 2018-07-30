@@ -66,3 +66,7 @@ export default {
 This is the quotation.
 
 </BlockQuote>
+
+### Navbar
+* Nav bar links are specified in `.vuepress/config.js` at `themeConfig.nav`.
+* Make a dropdown by nesting `items`
