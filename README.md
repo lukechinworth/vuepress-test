@@ -58,3 +58,11 @@ export default {
     color: blue;
 }
 </style>
+
+### Vue components
+* Add components to `.vuepress/components`. These are registered as global, async components, like this block quote:
+
+<BlockQuote citeUrl="http://example.com/" citeLabel="Author">
+This is the quotation.
+
+</BlockQuote>
