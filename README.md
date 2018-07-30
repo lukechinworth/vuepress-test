@@ -26,3 +26,6 @@ Go nuts with markdown.
 * Link is the [TV page](/tv/) will be updated with url base automatically
 * Links do not refresh. Front end is single page app.
 * `vuepress dev` will serve from base url config http://localhost:8080/vuepress-test/built-site/
+### Vue
+* Md is compiled to html and then passed to vue-loader, so this works: {{ 3 + 4 }}
+* You can access site metadata with the global `$page`: {{ $page }}
