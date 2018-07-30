@@ -4,6 +4,7 @@ list:
     - one
     - two
     - three
+sidebarDepth: 2
 ---
 
 # Home page
@@ -70,3 +71,7 @@ This is the quotation.
 ### Navbar
 * Nav bar links are specified in `.vuepress/config.js` at `themeConfig.nav`.
 * Make a dropdown by nesting `items`
+
+### Sidebar
+* Specify pages to show in sidebar `themeConfig.sidebar` to config.
+* Displays `h2` by default; specify `sidebarDepth` in frontmatter per page to display  `h3`

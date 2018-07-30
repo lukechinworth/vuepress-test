@@ -17,3 +17,4 @@ themeConfig:
       link: /guide/
     - text: External
       link: https://google.com
+  sidebar: auto
