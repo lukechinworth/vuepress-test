@@ -1,3 +1,11 @@
+---
+custom: Title
+list:
+    - one
+    - two
+    - three
+---
+
 # Home page
 This is the home page of your vuepress site.
 Go nuts with markdown.
@@ -29,3 +37,6 @@ Go nuts with markdown.
 ### Vue
 * Md is compiled to html and then passed to vue-loader, so this works: {{ 3 + 4 }}
 * You can access site metadata with the global `$page`: {{ $page }}
+### Frontmatter
+* Frontmatter for the current page is available on the `$page` object: {{ $page.frontmatter }}
+* Set front matter with yaml at top of this markdown file
