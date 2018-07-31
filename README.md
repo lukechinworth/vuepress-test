@@ -15,6 +15,11 @@ Go nuts with markdown.
 ```
 ## Vuepress notes
 
+### Overview
+* Vuepress has two parts:
+* static site generator command line tool
+* default theme for a static site intended for technical docs
+
 ### Installation
 * Global install for standalone project (e.g. solid book)
 * Alternative is local install inside existing project (e.g. docs for a web project)
